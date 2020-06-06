@@ -1,0 +1,140 @@
+/* Universal Styles */
+body {
+    background-color: black;
+    color: seashell;
+    margin: 0;
+}
+
+main {
+    padding: 0 50px;
+}
+
+
+
+
+ 
+/* Top Bar */
+.top-bar {
+    height: 69px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: seashell 1px solid;
+    padding: 0 10px;
+}
+
+.top-bar img {
+    height: 50px;
+}
+
+a {
+    text-decoration: underline;
+}
+
+/* Mission Section */
+.mission {
+    background-image: url(images/img-mission-background.jpg);
+    height: 700px;
+    display: flex;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.mission-content {
+    background-color: black;
+    width: 100%;
+    text-align: center;
+}
+
+/* Tea Section */
+
+.tea {
+    width: 100opx;
+    display: flex;
+    flex-direction: column;
+}
+
+.tea-content {
+    text-align: center;
+}
+
+.container img {
+    height: 200px;
+    width: 300px;
+    display: inline-block;
+    justify-content: space-between;
+}
+
+.tea-container-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.tea-container-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.image-content {
+    flex: 1;
+}
+
+.wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+ 
+}
+
+.top-container, .bottom-container {
+    display: flex;
+}
+
+.top-container img {
+justify-content: center;
+}
+
+.image-text {
+    margin: 40px;
+}
+/* Locations */
+
+.locations {
+    background-image: url(images/img-locations-background.jpg);
+    height: 500px;
+    width: 1200px;
+    display: flex;
+    justify-content: center space-between;
+    align-items: center;
+    opacity: 1;
+    margin: 20px;
+   
+}
+
+.locations div {
+    height: 300px;
+    flex: 1;
+    background: black;
+    margin: 40px;
+}
+
+.locations h2 {
+    text-align: center;
+}
+
+.locations-adress {
+    display: flex;
+    
+    flex-direction: column;
+}
